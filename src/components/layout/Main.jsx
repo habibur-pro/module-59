@@ -4,9 +4,11 @@ import Header from '../Header/Header';
 
 const Main = () => {
     return (
-        <div>
+        <div className='App'>
             <Header />
-            <Outlet></Outlet>
+           <div style={{width:'100%', margin:'0 auto'}}>
+           <Outlet></Outlet>
+           </div>
         </div>
     );
 };
